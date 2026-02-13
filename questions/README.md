@@ -1,6 +1,139 @@
 # Building Perceptron -- Réponses aux Questions 1 à 7
 python -m streamlit run data_report_app.py
 
+# Machine learning et deep learning
+
+1) Définition
+🔹 Machine Learning (ML)
+
+Le Machine Learning est un domaine de l’intelligence artificielle où l’on entraîne un algorithme à apprendre des relations à partir de données plutôt que de programmer explicitement des règles.
+
+Au lieu de dire :
+
+“si pixel rouge + rond → pomme”
+
+on donne beaucoup d’exemples de pommes et de non-pommes, et l’algorithme apprend lui-même les règles.
+
+Idée clé :
+➡️ L’humain conçoit les caractéristiques importantes (features), la machine apprend les paramètres.
+
+Exemples d’algorithmes ML :
+
+régression linéaire/logistique
+
+k-nearest neighbors
+
+arbres de décision / random forest
+
+SVM
+
+clustering (k-means)
+
+🔹 Deep Learning (DL)
+
+Le Deep Learning est un sous-domaine du Machine Learning basé sur les réseaux de neurones profonds (deep neural networks).
+
+Ici la machine apprend directement à partir des données brutes sans que l’humain définisse les caractéristiques.
+
+Exemple :
+
+ML classique : on extrait contours, couleurs, textures d’une image
+
+DL : on donne les pixels → le réseau apprend lui-même les contours
+
+Idée clé :
+➡️ La machine apprend les caractéristiques ET la décision.
+
+Architecture typique :
+
+CNN (images)
+
+RNN / LSTM (séquences)
+
+Transformers (texte, audio, vision)
+
+2) Quand utiliser l’un plutôt que l’autre ?
+Utiliser le Machine Learning classique quand :
+
+petit dataset
+
+données tabulaires (Excel, base clients, scores)
+
+besoin d’explicabilité (banque, santé, assurance)
+
+ressources matérielles limitées
+
+problème simple de classification/prédiction
+
+📌 Exemple :
+
+prédire si un client va résilier un abonnement
+
+Utiliser le Deep Learning quand :
+
+beaucoup de données
+
+données complexes (image, audio, texte)
+
+reconnaissance de motifs très difficiles
+
+performance maximale recherchée
+
+GPU disponible
+
+📌 Exemple :
+
+reconnaître des visages ou comprendre du langage naturel
+
+3) Applications du Deep Learning (3 exemples)
+🧠 1. Vision par ordinateur (Computer Vision)
+
+Le DL permet aux machines de voir et comprendre les images.
+
+Applications :
+
+détection de tumeurs en radiologie
+
+voitures autonomes
+
+reconnaissance faciale
+
+tri automatique d’objets industriels
+
+👉 Les CNN analysent automatiquement les formes, textures et objets.
+
+🗣️ 2. Traitement du langage naturel (NLP)
+
+Les modèles de type Transformer (comme GPT) comprennent et génèrent du texte.
+
+Applications :
+
+assistants conversationnels
+
+traduction automatique
+
+résumé de documents
+
+génération de code
+
+👉 La machine apprend la grammaire et le sens sans règles écrites.
+
+🎵 3. Génération de contenu (IA générative)
+
+Le Deep Learning peut créer du contenu nouveau.
+
+Applications :
+
+génération d’images
+
+musique artificielle
+
+voix synthétique réaliste
+
+vidéo générée par IA
+
+👉 Le modèle apprend la distribution des données et crée de nouveaux exemples plausibles.
+
 ## 1. Qu'est-ce qu'un Perceptron ? Quel est le lien avec un neurone biologique ?
 
 ### Définition

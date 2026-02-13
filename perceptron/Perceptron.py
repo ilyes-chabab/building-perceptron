@@ -28,3 +28,6 @@ class Perceptron:
                 for i in range(len(self.weights)):
                     self.weights[i] += self.learningRate * error * X[i]
 
+
+
+
