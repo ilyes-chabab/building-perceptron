@@ -1,0 +1,45 @@
+﻿,Feature 1,Feature 2,Correlation
+0,perimeter_mean,radius_mean,0.9978552814938109
+1,area_mean,radius_mean,0.9873571700566127
+2,area_mean,perimeter_mean,0.9865068039913907
+3,concavity_mean,compactness_mean,0.8831206701772507
+4,concave points_mean,radius_mean,0.8225285223871786
+5,concave points_mean,perimeter_mean,0.8509770412528191
+6,concave points_mean,area_mean,0.8232688686524342
+7,concave points_mean,compactness_mean,0.831135043133698
+8,concave points_mean,concavity_mean,0.9213910263788588
+9,perimeter_se,radius_se,0.9727936770160764
+10,area_se,area_mean,0.8000859212343201
+11,area_se,radius_se,0.951830112110991
+12,area_se,perimeter_se,0.9376554069544157
+13,concavity_se,compactness_se,0.8012683427383291
+14,fractal_dimension_se,compactness_se,0.8032688176617679
+15,radius_worst,radius_mean,0.9695389726112055
+16,radius_worst,perimeter_mean,0.9694763634663146
+17,radius_worst,area_mean,0.9627460860470841
+18,radius_worst,concave points_mean,0.8303176311186159
+19,texture_worst,texture_mean,0.912044588840421
+20,perimeter_worst,radius_mean,0.9651365139559871
+21,perimeter_worst,perimeter_mean,0.9703868870426394
+22,perimeter_worst,area_mean,0.9591195743552645
+23,perimeter_worst,concave points_mean,0.8559231281343119
+24,perimeter_worst,radius_worst,0.993707916102949
+25,area_worst,radius_mean,0.9410824595860461
+26,area_worst,perimeter_mean,0.9415498080023068
+27,area_worst,area_mean,0.9592133256498998
+28,area_worst,concave points_mean,0.809629619909618
+29,area_worst,area_se,0.8114079609317274
+30,area_worst,radius_worst,0.9840145644590742
+31,area_worst,perimeter_worst,0.9775780914063871
+32,smoothness_worst,smoothness_mean,0.8053241954943627
+33,compactness_worst,compactness_mean,0.8658090398022629
+34,concavity_worst,compactness_mean,0.8162752498000281
+35,concavity_worst,concavity_mean,0.8841026390943817
+36,concavity_worst,compactness_worst,0.8922608987764685
+37,concave points_worst,compactness_mean,0.8155732235690644
+38,concave points_worst,concavity_mean,0.861323033637951
+39,concave points_worst,concave points_mean,0.9101553142985918
+40,concave points_worst,perimeter_worst,0.8163221016875439
+41,concave points_worst,compactness_worst,0.8010803646352528
+42,concave points_worst,concavity_worst,0.8554338603439982
+43,fractal_dimension_worst,compactness_worst,0.8104548563116117
